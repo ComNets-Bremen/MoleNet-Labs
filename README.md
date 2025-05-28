@@ -59,6 +59,6 @@ The repository is organized into folders by lab. Each lab folder typically conta
 
 ---
 
-#### The solutions can be made available to lecturers. Please reach out to us with your affiliation at the following email address to request the solutions: [molenet-info](cn-info@comnets.uni-bremen.de)
+#### The solutions can be made available to lecturers. Please reach out to us with your affiliation at the following email address to request the solutions: [molenet-info](mailto:cn-info@comnets.uni-bremen.de)
 
 ---
