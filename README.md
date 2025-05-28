@@ -58,3 +58,7 @@ The repository is organized into folders by lab. Each lab folder typically conta
 📂 Navigate to: `micropython-lora-lab/`
 
 ---
+
+#### The solutions can be made available to lecturers. Please reach out to us with your affiliation at the following email address to request the solutions: [molenet-info](cn-info@comnets.uni-bremen.de)
+
+---
