@@ -1,0 +1,66 @@
+UDP Communications
+==================
+
+
+udpserver.py
+============
+program to collect data generate by the students using their MoleNet boards and sent over
+WLAN.
+
+Starting parameters
+-------------------
+./udpserver.py -a 134.102.186.10 -p 9980
+
+the program must be bound to an address that is in the same network as the students MoleNet
+and the port 9980
+
+Expected data format
+--------------------
+
+Matriculation-Number ; Sequence-Number ; Humidity ; Temperature
+
+
+How to give data to students
+----------------------------
+use grep with matriculation-number to extract data from the output file of the server.py
+
+
+
+udptester.py
+=========
+program to test whether the server.py works as expected
+
+Starting parameters
+-------------------
+./udptester.py -a 134.102.186.10 -p 9990
+
+the address and the port where the server is hosted
+
+=========================================================================================
+
+
+TCP Communications
+==================
+
+
+tcpserver.py
+============
+program to collect TCP data generate by the students using their MoleNet boards and sent over
+WLAN.
+
+Starting parameters
+-------------------
+./tcpserver.py -a 134.102.186.10 -p 9999
+
+the program must be bound to an address that is in the same network as the students MoleNet
+and the port 9999
+
+Expected data format
+--------------------
+
+Matriculation-Number :: Unique-ID :: Sequence-Number :: Temperature :: Pressure :: Altitude :: Humidity 
+
+
+How to give data to students
+----------------------------
+use grep with matriculation-number to extract data from the output file of the server.py
